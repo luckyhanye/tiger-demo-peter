@@ -1,4 +1,5 @@
 import React from "react"
+import {Link} from "react-router"
 
 
 class Header extends React.Component{
@@ -10,8 +11,9 @@ class Header extends React.Component{
   }
   render(){
     return(
-      <div>
-        header
+      <div className="headerTop">
+        <Link className="homeLink" to="/">目录</Link>
+        <button>注册/登录</button>
       </div>
     )
   }

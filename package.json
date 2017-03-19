@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node -v",
     "pack": "./node_modules/.bin/webpack  --watch --devtool eval",
-    "dev": "./node_modules/.bin/webpack-dev-server --config webpack.dev.config.js",
     "push": "git add . && git commit -m'react-tiger' && git push"
   },
   "keywords": [],

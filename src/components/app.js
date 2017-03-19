@@ -1,7 +1,7 @@
 import React from "react"
-import Header from './header.js'
-import Footer from './footer.js'
 import { Link } from 'react-router';
+import Header from './header';
+import Goods from './goods';
 
 class App extends React.Component{
   constructor(){
@@ -13,11 +13,10 @@ class App extends React.Component{
   render(){
     return(
       <div>
-        <Header/>
-        <Link to='/'>Home</Link><br/>
-       <Link to='/login'>Login</Link>
+       <Header/>
         {this.props.children}
-        <Footer/>
+        <Link to='/login'>Login</Link><br/>
+        <Link to='/goods'>Goods</Link>
       </div>
     )
   }

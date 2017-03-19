@@ -3,3 +3,36 @@
   margin: 0;
   box-sizing:border-box;
 }
+.headerTop{
+  min-width:90vw;
+  height:50px;
+  background-color: #00E5FF;
+}
+.homeLink{
+  color:white;
+  text-indent: 50px;
+  font-size: 23px;
+  line-height: 50px;
+  float:left;
+  text-decoration: none;
+}
+button{
+  width: 80px;
+  line-height: 30px;
+  float: right;
+  margin-right: 60px;
+  margin-top: 10px;
+  background-color: #18FFFF;
+  border:none;
+  color:#EF5350;
+  border-radius:6px;
+}
+button:hover{
+  cursor:pointer;
+  color:white;
+  background-color: #00838F;
+}
+.goodsBox{
+  margin-left: 30vw;
+  margin-top: 10vh;
+}
