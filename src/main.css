@@ -10,13 +10,13 @@
 }
 .homeLink{
   color:white;
-  text-indent: 50px;
+  text-indent: 20px;
   font-size: 23px;
   line-height: 50px;
   float:left;
   text-decoration: none;
 }
-button{
+.headerTop button{
   width: 80px;
   line-height: 30px;
   float: right;
@@ -27,12 +27,25 @@ button{
   color:#EF5350;
   border-radius:6px;
 }
-button:hover{
+.headerTop button:hover{
   cursor:pointer;
   color:white;
   background-color: #00838F;
 }
 .goodsBox{
   margin-left: 30vw;
-  margin-top: 10vh;
+  margin-top: 3vh;
+}
+.goodsBox h2{
+  color:teal;
+  line-height: 40px;
+}
+.goodsBox h4{
+  font-size: 18px;
+  line-height: 1.2em;
+  color:#26A69A;
+}
+.goodsBox .show{
+  position:relative;
+  top:20px;
 }

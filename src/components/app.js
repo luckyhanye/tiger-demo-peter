@@ -1,7 +1,12 @@
 import React from "react"
 import { Link } from 'react-router';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
+// import MyAwesomeReactComponent from './MyAwesomeReactComponent';
+
 import Header from './header';
 import Goods from './goods';
+import Login from './login';
 
 class App extends React.Component{
   constructor(){
@@ -13,10 +18,12 @@ class App extends React.Component{
   render(){
     return(
       <div>
-       <Header/>
-        {this.props.children}
-        <Link to='/login'>Login</Link><br/>
+        <MuiThemeProvider muiTheme={getMuiTheme()}>
+          {/* <MyAwesomeReactComponent /> */}
+          <Header/>
+        </MuiThemeProvider>
         <Link to='/goods'>Goods</Link>
+        {this.props.children}
       </div>
     )
   }
