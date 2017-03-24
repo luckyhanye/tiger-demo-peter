@@ -11,10 +11,13 @@
 .homeLink{
   color:white;
   text-indent: 20px;
-  font-size: 23px;
+  font-size: 18px;
   line-height: 50px;
   float:left;
   text-decoration: none;
+}
+.homeLink:hover{
+  color:red;
 }
 .headerTop button{
   width: 80px;
@@ -33,19 +36,18 @@
   background-color: #00838F;
 }
 .goodsBox{
-  margin-left: 30vw;
+  margin-left: 5vw;
   margin-top: 3vh;
 }
-.goodsBox h2{
+.goodsBox h3{
   color:teal;
   line-height: 40px;
 }
 .goodsBox h4{
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.2em;
   color:#26A69A;
 }
-.goodsBox .show{
-  position:relative;
-  top:20px;
+.fenLei{
+  float:left;
 }

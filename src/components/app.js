@@ -22,7 +22,6 @@ class App extends React.Component{
           {/* <MyAwesomeReactComponent /> */}
           <Header/>
         </MuiThemeProvider>
-        <Link to='/goods'>Goods</Link>
         {this.props.children}
       </div>
     )
